@@ -1,0 +1,38 @@
+#anno{
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(255, 184, 5);
+    display: inline;
+    padding-left: 30px;
+    border-top-left-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    /* border-top-right-radius: 5px; */
+   
+}
+
+
+#buttun{
+    /* padding-left: 50px; */
+    padding-left: 980px;
+    display: inline;
+    background: #0037ff;
+    
+    
+   
+}
+.ann{
+    border: 1px solid black;
+    display: inline-block;
+    /* border-radius: 3px; */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    background: #0037ff;
+    height: 50px;
+}
+#blue{
+    background:#0037ff;
+    font-size: 20px;
+    color: aliceblue;
+}
