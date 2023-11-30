@@ -72,7 +72,7 @@ body{
 }
 
 .payal{
-    height:175px;
+    height: 150px;
     width:300px;
     background-color: black;
 }
@@ -82,13 +82,9 @@ width: 100%;
 height: 2cm;
 }
 #button{
-    padding-top: 7.0rem;
-    padding-left: 70.0rem;
     display: inline;
-    background: #0037ff;
-    border-top: #0037ff;
-    margin-bottom: .2rem sodil white;
     height: 4.0rem;
+    color:black;
 }
 .org-name{
     text-align: center;
