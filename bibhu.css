@@ -72,8 +72,9 @@ body{
 }
 
 .payal{
-    height:6em;
-    background: black;
+    height:175px;
+    width:300px;
+    background-color: black;
 }
 .pb{
 background: white;
@@ -88,4 +89,8 @@ height: 2cm;
     border-top: #0037ff;
     margin-bottom: .2rem sodil white;
     height: 4.0rem;
+}
+.org-name{
+    text-align: center;
+    color:white ;
 }
