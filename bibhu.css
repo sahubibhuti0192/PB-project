@@ -20,54 +20,43 @@ html{
 
 
 #anno{
-    width: 22.0rem;
-    
-    background-color: rgb(255, 184, 5);
-    display: inline-block;
-    /* padding-left: 3.0rem; */
-    border-top-left-radius: .5rem;
-    border-bottom: .2rem solid white;
-    height: 4.9rem;
-    text-align: center;
-    padding-top: 1.2rem;
-    font-size: 1.5rem;
-    /* padding-right: 1.0rem; */
-    /* border-top-right-radius: 5px; */
+    width: 20rem;
+    background: gold;
     height: 4.0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-bottom: .2rem solid white;
+    display: inline-block;
 }
 
 
 #buttun{
-     padding-top: 1.0rem;
-    padding-left: 50.0rem; 
+    position: sticky;
     display: inline;
     background: #0037ff;
-    /* border-top: #0037ff; */
-     margin-bottom: .2rem sodil white;
-    height: 3.0rem;
-    position: fixed;
-   
-} 
-  #ann{
-   width: 100%;
-   display: inline-block;
+    margin-bottom: .2rem sodil white;
+    height: 4.0rem;
+    left: 70.0rem;
+    height: 2rem;
+}
+ .ann{
    background: #0037ff;
    border-bottom: .2rem solid white;
    height: 4.0rem;
-   margin-block: 5px;
- }   
+ }  
 #blue{
     background:#0037ff;
     font-size: 2.0rem;
-    font-weight: 6.0rem;
     color: aliceblue;
     border: 0rem;
+    
 }
 
 
-/* body{
+body{
     background: black;
-} */
+}
 #search{
     width: 11.0rem;
     height: 5.0rem;
@@ -81,10 +70,22 @@ html{
     text-align: center;
     color: aqua;
 }
-.imag{
-    background: #ffffff;
-}
-.payal{
-    color:black;
-}
 
+.payal{
+    height:6em;
+    background: black;
+}
+.pb{
+background: white;
+width: 100%;
+height: 2cm;
+}
+#button{
+    padding-top: 7.0rem;
+    padding-left: 70.0rem;
+    display: inline;
+    background: #0037ff;
+    border-top: #0037ff;
+    margin-bottom: .2rem sodil white;
+    height: 4.0rem;
+}
