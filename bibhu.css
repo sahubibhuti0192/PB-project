@@ -20,35 +20,27 @@ html{
 
 
 #anno{
-    width: 22.0rem;
-    border: .1rem solid black;
-    background-color: rgb(255, 184, 5);
-    display: inline-block;
-    padding-left: 3.0rem;
-    border-top-left-radius: .5rem;
-    font-size: 2.0rem;
-    height: 4.9rem;
-    text-align: center;
-    padding-top: 1.2rem;
-    font-size: medium;
-    padding-right: 1.0rem;
-    /* border-top-right-radius: 5px; */
+    width: 20rem;
+    background: gold;
     height: 4.0rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    border-bottom: .2rem solid white;
+    display: inline-block;
 }
 
 
 #buttun{
-    padding-top: 7.0rem;
-    padding-left: 70.0rem;
+    position: sticky;
     display: inline;
     background: #0037ff;
-    border-top: #0037ff;
     margin-bottom: .2rem sodil white;
     height: 4.0rem;
-   
+    left: 70.0rem;
+    height: 2rem;
 }
  .ann{
-   width: 100%;
    background: #0037ff;
    border-bottom: .2rem solid white;
    height: 4.0rem;
@@ -57,6 +49,8 @@ html{
     background:#0037ff;
     font-size: 2.0rem;
     color: aliceblue;
+    border: 0rem;
+    
 }
 
 
