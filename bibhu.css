@@ -38,12 +38,15 @@ html{
     margin-bottom: .2rem sodil white;
     height: 4.0rem;
     left: 70.0rem;
-    height: 2rem;
+    /* height: 2rem; */
+    
 }
  .ann{
    background: #0037ff;
    border-bottom: .2rem solid white;
    height: 4.0rem;
+   width: 110rem;
+   display: inline-block;
  }  
 #blue{
     background:#0037ff;
@@ -85,8 +88,59 @@ height: 2cm;
     display: inline;
     height: 4.0rem;
     color:black;
+    display: inline;
 }
 .org-name{
     text-align: center;
     color:white ;
+    display: inline;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #yell{
+    background: #ffffff;
+    width: 15rem;
+    display: inline;
+    height: 4.0rem;
+    /* left: 150rem; */
+/* } */ 
+/* #yello{
+    background-color: gold;
+    width: 3rem;
+    display: inline;
+    height: 4.0rem;
+} */
+
+.an{
+    background: #ffffff;
+    border-bottom: .2rem solid white;
+    height: 4.0rem;
+    display: inline-block;
+  }  
