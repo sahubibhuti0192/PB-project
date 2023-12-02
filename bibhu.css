@@ -37,16 +37,13 @@ html{
     background: #0037ff;
     margin-bottom: .2rem sodil white;
     height: 4.0rem;
-    left: 70.0rem;
-    /* height: 2rem; */
-    
+    left: 110.0rem;
+    height: 2rem;
 }
- .ann{
+.ann{
    background: #0037ff;
    border-bottom: .2rem solid white;
    height: 4.0rem;
-   width: 110rem;
-   display: inline-block;
  }  
 #blue{
     background:#0037ff;
@@ -58,7 +55,7 @@ html{
 
 
 body{
-    background: black;
+    background: rgb(255, 255, 255);
 }
 #search{
     width: 11.0rem;
@@ -75,9 +72,9 @@ body{
 }
 
 .payal{
-    height: 150px;
-    width:300px;
-    background-color: black;
+    height: 11rem;
+    width:100%;
+    background-color: #000000;
 }
 .pb{
 background: white;
@@ -90,10 +87,37 @@ height: 2cm;
     color:black;
     display: inline;
 }
-.org-name{
-    text-align: center;
+.palur{
+    /* text-align: center; */
     color:white ;
+    display: inline-block;
+    font-size: 2.3rem;
+    font-style: normal;
+    /* padding-top: 1.5rem; */
+    height: 30rem;
+    /* left: 2.0rem; */
+    width: 130rem;
+    /* padding-bottom: 1.5rem; */
+}
+.image{
     display: inline;
+    /* left: 30rem; */
+    width: 5rem;
+    /* left: 20rem; */
+    
+}
+.image1{
+    display: inline-block;
+    width: 6rem;
+    
+}
+.src1{
+    height: 9rem;
+    /* width: 5rem; */
+}
+.src{
+    height: 9rem;
+    /* width: 5rem; */
 }
 
 
