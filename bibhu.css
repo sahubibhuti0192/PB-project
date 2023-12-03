@@ -118,7 +118,13 @@ height: 6em;
     
     /* padding-bottom: 1.5rem; */
 }
-
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left:16px;
+    color: #ffffff;
+    font-size: 65px;
+}
 
 
 
