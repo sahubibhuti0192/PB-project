@@ -34,19 +34,19 @@ html{
 #buttun{
     position: sticky;
     display: inline;
-    background: rgba(31, 69, 183, 0.764);
+    /* background: #0037ff; */
     margin-bottom: .2rem sodil white;
     height: 4.0rem;
     left: 110.0rem;
     height: 2rem;
 }
 .ann{
-   background: rgba(31, 69, 183, 0.764);
+   background: #0037ff;
    border-bottom: .2rem solid white;
    /* height: 4.0rem; */
  }  
 #blue{
-    background:rgba(31, 69, 183, 0.764);
+    /* background:#0037ff; */
     font-size: 2.0rem;
     color: aliceblue;
     border: 0rem;
@@ -136,66 +136,14 @@ height: 6em;
     color: #ffffff;
     font-size: 65px;
 }
- .write{
-    text-align: justify;
-    font-size: 20px;
-    display: block;
-    color:darkslategray;
-    background-color:#ffffff;
-    font-weight: lighter;
-    line-height: 30px;
-    padding:60px 120px 120px 100px;
- }
-h1{
-    color:rgb(49, 46, 46);
-    background-color: #ffffff;
-    text-align: center;
-    font-weight: 30;
-    font-size: 45px;
-    padding-bottom: 80px;
-}
-.clg{
-    text-align: justify;
-    font-size: 20px;
-    display: block;
-    color:darkslategray;
-    background-color:#ffffff;
-    font-weight: lighter;
-    line-height: 30px;
-    padding:30px 120px 40px 100px;
-}
-.park{
-    text-align: justify;
-    font-size: 20px;
-    display: block;
-    color:darkslategray;
-    background-color:#ffffff;
-    font-weight: lighter;
-    line-height: 30px;
-    padding:0px 120px 80px 100px; 
-}
-.drones{
-    padding: 0px 300px 10px 90px;
-    text-align: left;
-    color:darkslategray;
-    background-color: white;
-    font-size: 20px;
-}
-.pic{
-    text-align: justify;
-    height:200px;
-    width: 800px;
-    color:darkslategray;
-    background-color:#ffffff;
-    font-weight: lighter;
-    line-height: 25px;
-    font-size: 20px;
-    padding-left: 120px;
-    padding-bottom: 150px;
-}
-a{
-    text-decoration: none;
-}
+
+
+
+
+
+
+
+
 
 
 
