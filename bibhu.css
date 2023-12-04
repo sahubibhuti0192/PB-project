@@ -34,19 +34,19 @@ html{
 #buttun{
     position: sticky;
     display: inline;
-    background: #0037ff;
+    background: rgba(31, 69, 183, 0.764);
     margin-bottom: .2rem sodil white;
     height: 4.0rem;
     left: 110.0rem;
     height: 2rem;
 }
 .ann{
-   background: #0037ff;
+   background: rgba(31, 69, 183, 0.764);
    border-bottom: .2rem solid white;
    /* height: 4.0rem; */
  }  
 #blue{
-    background:#0037ff;
+    background:rgba(31, 69, 183, 0.764);
     font-size: 2.0rem;
     color: aliceblue;
     border: 0rem;
