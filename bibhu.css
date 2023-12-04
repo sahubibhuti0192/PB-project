@@ -20,14 +20,16 @@ html{
 
 
 #anno{
-    width: 20rem;
-    background: gold;
-    height: 4.0rem;
-    font-size: 1.5rem;
-    text-align: center;
-    padding-top: 1.5rem;
-    border-bottom: .2rem solid white;
     display: inline-block;
+    width: 13.25%;
+    background: gold;
+    height: 6.0rem;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    padding-top: 1.5rem;
+    padding-left: 3.8%;
+    border-bottom: .2rem solid white;
+    
 }
 
 
@@ -39,18 +41,22 @@ html{
     height: 4.0rem;
     left: 110.0rem;
     height: 2rem;
+    width: 80%;
 }
 .ann{
+    display: inline-block;
    background: rgba(31, 69, 183, 0.764);
    border-bottom: .2rem solid white;
-   /* height: 4.0rem; */
+   height: 6rem;
+   width: 100%;
+   border-top-right-radius: 0.2rem;
  }  
 #blue{
     /* background:rgba(31, 69, 183, 0.764); */
     font-size: 2.0rem;
     color: aliceblue;
     border: 0rem;
-    
+    width: 10%;
 }
 
 
@@ -63,7 +69,7 @@ body{
     display: inline;
 }
 #form{
-    display: inline;
+    display: inline-block;
     
 }
 #bibhu{
