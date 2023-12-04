@@ -181,8 +181,21 @@ h1{
     background-color: white;
     font-size: 20px;
 }
-
-
+.pic{
+    text-align: justify;
+    height:200px;
+    width: 800px;
+    color:darkslategray;
+    background-color:#ffffff;
+    font-weight: lighter;
+    line-height: 25px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-bottom: 150px;
+}
+a{
+    text-decoration: none;
+}
 
 
 
