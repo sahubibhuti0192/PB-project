@@ -202,7 +202,24 @@ h1{
 a{
     text-decoration: none;
 }
-
+.pic{
+    display:flex;
+    flex-direction: row;
+    flex:wrap;
+}
+.left{
+    height:14.6vh;
+    width: 150vw;
+    justify-content: center;
+    background-color:white;
+    color: black;
+}
+.right {
+    text-align: right;
+    height:3vh;
+    width:5vw;
+    padding:0px 120px 80px 100px;
+}
 
 
 
