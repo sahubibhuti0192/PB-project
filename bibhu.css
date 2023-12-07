@@ -220,7 +220,17 @@ a{
     width:5vw;
     padding:0px 120px 80px 100px;
 }
-
+@keyframes blinker{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
 
 
 
