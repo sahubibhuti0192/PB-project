@@ -3,42 +3,302 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LED Control</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        button { font-size: 20px; padding: 10px 20px; margin: 10px; cursor: pointer; }
-    </style>
+    <title>NIST| Collaborations</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
+    <div class="main"> 
+    <div class="first">
+    <div class="first1">
+    <div class="left1">
+<span>
+    <i class="fa-solid fa-bell" id="bell" ></i>
+    ANNOUNCEMENTS
+</span>
+    </div>
+    <div class="middle1">
+ <ul class="list">
+ <li class="msg">CHAIRMAN MESSAGE
+ <span class="line">|</span>
+</li>
+ <li class="msg">FACULTY 
+    <span class="line">|</span>
+</li>
+ <li class="msg">STUDENTS
+    <span class="line">|</span>
+</li>
+<li class="msg">GALLERY
+    <span class="line">|</span>
+</li>
+<li class="msg">DOWNLOADS
+    <span class="line">|</span>
+</li>
+<li class="msg">CONTACT
+     
+</li>
+</ul>
+    </div>
+    <div class="right1">
+        <ul class="find"> 
+            <div class="inner"> 
+                <!-- cover -->
+            <li> 
+      <input type="text" id="search" placeholder="search">
+    </li>
+    <li id="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </li>
+   </div>
+     </ul>
+    </div>
+    </div>
+    <div class="first2">
+     <div class="left2">
+     <img src="nist.png" >
+     </div>
+     <div class="middle2">
+     <table class="table">
+        <tbody>
+      <tr class="row1">
+        <td>NIST Institute of Science and Technology (Autonomous)
+        </td>
+      </tr>
+      <tr class="row2">
+        <td>Institute Park, Pallur Hills, Berhampur, Odisha
+        </td>
+      </tr>
+        </tbody>
+     </table>
+     </div>
+     <div class="right2"></div>
+     <div class="rightmost2">
+   <img src="naac1.png" alt="" srcset="">
+   <img src="nba1.png" alt="" srcset="">
+     </div>
+    </div>
+    <div class="first3">
+      <div class="home">
+        <div class="homologo">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="nist">THIS IS NIST</div>
+        <div class="campus">CAMPUS</div>
+        <div class="academic">ACADEMIC</div>
+        <div class="research">RESEARCH</div>
+        <div class="incuvations">INCUVATIONS</div>
+        <div class="collaboration">COLLABORATIONS</div>
+        <div class="career-development">CAREER DEVELOPMENT</div>
+        <div class="student-life">STUDENT LIFE</div>
+        <div class="admission" >
+            <p id="admission">ADMISSION 2023</p>
+        </div>
 
-    <h1>ESP32 LED Control</h1>
-    <button onclick="sendCommand('ON')">Turn LED ON</button>
-    <button onclick="sendCommand('OFF')">Turn LED OFF</button>
-    <p id="status">Status: Disconnected</p>
+      </div>
+    </div>
+    <div class="first4">
+   <div class="left4">
+     <div class="industry">
+        <span> 
+        <i class="fa-solid fa-building" id="building"></i>&nbsp;&nbsp;INDUSTRY PATNERSHIPS
+    </span>
+     </div>
+   </div>
+   <div class="right4">
+   <div class="building"> 
+    <span> 
+    <i class="fa-solid fa-building-columns" id="college"></i>&nbsp;&nbsp;ACADEMIC COLLABORATIONS
+  </span>
+   </div>
+   </div>
+    </div>
+    </div>
 
-    <script>
-        const wss = new WebSocketServer({ host: "0.0.0.0", port: 8080 });
 
+    <div class="middle">
+      <div class="first5">
+   <img src="Collaboration.jpg" alt="" srcset="">
+   <div class="social">
+    <button class="facebook">
+      <i class="fa-brands fa-facebook-f" style="color:white;"></i>
+    </button>
+    <button class="linkdln">
+      <i class="fa-brands fa-linkedin-in"  style="color:white;"></i>
+    </button>
+    <button class="twitter">
+      <i class="fa-brands fa-twitter"  style="color:white;"></i>
+    </button>
+    <button class="youtube">
+      <i class="fa-brands fa-youtube" style="color:white;"></i>
+    </button>
+    <button class="instagram">
+      <i class="fa-brands fa-instagram" style="color:white;"></i>
+    </button>
+    <button class="pinterest">
+      <i class="fa-brands fa-pinterest" style="color:white;"></i>
+    </button>
+    <button class="telegram">
+      <i class="fa-brands fa-telegram" style="color:white;"></i>
+    </button>
+    <button class="whatsapp">
+      <i class="fa-brands fa-whatsapp" style="color:white;"></i>
+    </button>
+   </div>
+   <div class="bottom_left">COLLABORATIONS</div>
+   <div class="top_right">
+    <button class="enquire">
+      "ENQUIRE NOW"
+      <i class="fa-solid fa-phone"></i>
+    </button>
+   </div>
+  </div>
+   <div class="first6">
+    <div class="msg">
+      NIST has always been grabbing opportunities where academia and industry come together in a win-win situation. It has been making consistent efforts to collaborate with renowned academic institutions and industries to provide world class exposure to the students. It emphasizes on the collaborative research funded by the Government and Industry funding agencies. The institute has built up strong industrial interaction with various industries for collaboration in research work. These eminent collaborations help the students acquire the knowledge, skills and aptitude required in our times for participation on a global level in terms of higher studies, placements, and entrepreneurship. These sponsored research programs have helped the institute create the infrastructure and strengthen the facilities in some of the emerging areas of technology. The Institute has also received numerous research grants, projects, special funding, travel funding, SDPs, FIST grant and scholarships from the DST, CSIR, AICTE and different companies.
 
-        ws.onopen = () => {
-            document.getElementById("status").innerText = "Status: Connected ✅";
-            console.log("Connected to WebSocket Server");
-        };
+</div>
+</div>
+<div class="first7">
+<div class="heading">
+  INDUSTRY PARTNERSHIPS
 
-        ws.onmessage = (event) => {
-            console.log("Received:", event.data);
-            alert("ESP32 says: " + event.data);
-        };
+</div>
+<div class="msg1">
+  NIST Institute Park is spread over 60 acres of which 4.3 lakh sq.ft. make academic space that houses many Centers of Excellence and international standard research laboratories wherein our researchers and faculty work, and where industries invest into our ideas. NIST has signed MoU with 15 industries for Rs 6.3 Crore in last five years and over 15 Research Scholars have worked in projects leading to their Ph.D work and Rs. 1.16 Crore on consultancy. The institute is collaborating with industries such as Sankalp Semiconductors, Sandhur and SunMoksha in the areas of Nano-technology and Renewal Energy. It has also collaborations with L&T Technology Services (LTTS) in the areas of IoT Solutions, AI, Data Science, Security, VLSI, 5G and Compute Vision.
 
-        ws.onerror = (error) => console.error("WebSocket Error:", error);
-        ws.onclose = () => document.getElementById("status").innerText = "Status: Disconnected ❌";
+</div>
+</div>
+<div class="first8"> 
+<div class="msg2">
+  The faculty of the institute maintain strong industrial links by undertaking consultancy assignments. This includes job of varied nature like troubleshooting, product and process development and design checks. The institute is doing collaborative research work with top Institute of India and abroad like IITs, NIT, NEERI, Nagpur, CMET, Pune, University of Hyderabad, University of California, Michigan State University, Stanford University, and NJIT, USA. MS from New Jersey Institute of Technology (NJIT), USA. NIST has established Centers of Excellence in partnership with Industry such as CADENCE, IBM, SAP Asia Pacific, L&T Technology Services, National Instruments, Texas Instruments, ARM, and WIPRO. The institute also plans to set up other centers of excellence like Data Science, Center of Mechatronics, Center of Image Processing & Cryptology, Center of Knowledge Engineering, Center of Industrial Automation Control, Center of Renewable Energy, and Center of Nano Technology.
+</div>
+   </div>
+   <div class="h">IG Drones</div>
+   <div class="first9">
+    <div class="drone"> 
+    <ul class="leftp">
+      <!-- <li class="heading">IG Drones</li> -->
+     
+      <li class="subheading">
+        It is a technology service provider company that provides drone services for mapping, surveying, inspection, etc. in agriculture, disaster management, power transmission, hydrology, and other fields. IG drones have partnered with NIST for software product development and to indigenize drone production starting from design to prototyping and manufacturing. For the technology stack used in the drones, our faculty members and research students from multiple departments take part in the development of control algorithms and analytics platforms.
+      </li>
+    </ul>
+  </div>
+    <div class="rightp">
+   <img src="IG_Drones.jpg" alt="" srcset="">
+    </div>
+   </div>
+   <div class="h2">Pipli Technologies</div>
+   <div class="first10">
+      <div class="leftp">
+        <img src="Pipli_Technologies.jpg" alt="" srcset="">
+         </div>
+         <div class="Technologies"> 
+      <ul class="rightp2">
+        <!-- <li class="heading">IG Drones</li> -->
+       
+        <li class="subheading2">
+          Pipli is a new age startup working in the domain of AI and ML to enhance customer engagement and organizational efficiency for their customers. They build models to predict consumer behavior from historical datasets. Pipli has setup a development center at NIST where some proprietary technology integration and process development takes place. An exclusive group of students and faculty supervisor work on the tasks assigned to them.
+        </li>
+      </ul>
+    </div>
+   </div>
+   <div class="h3">Protionix Technologies</div>
+   <div class="first11">
+    <div class="protionix"> 
+      <ul class="leftp3">
+        <!-- <li class="heading">IG Drones</li> -->
+       
+        <li class="subheading3">
+          Popularizing STEM education among school children, Protionix has its footprint in 6 states of India. It manufactures robotics hardware kits, organizes STEM education events, and conducts robotics workshops in those states. Protionix was founded at NIST by two Mechanical Engineering Graduates of the 2018 batch. Currently, they have a development center at NIST that uses the fabrication facilities to develop educational toys.
+        </li>
+      </ul>
+    </div>
+      <div class="rightp3">
+     <img src="Protionix_Technologies.jpg" alt="" srcset="">
+      </div>
+   </div>
+   <div class="h4">Bariflolabs Private Limited</div>
+   <div class="first12">
+    <div class="leftp4">
+      <img src="Bariflolabs_Private_Limited.jpg" alt="" srcset="">
+       </div>
+       <div class="Bariflolabs"> 
+    <ul class="rightp4">
+      <!-- <li class="heading">IG Drones</li> -->
+     
+      <li class="subheading4">
+        Bariflolabs is an Industry 4.0 compliant startup providing SAAS and FAAS to the aquaculture industry. Its patented aquaculture pond management system and water purification system based on bubble plume aeration technology have made it stand out technologically. Just to mention that in its foundational days, it had started at NIST itself. Bariflolabs has a development center at NIST where UG and PG students are working on projects. It is also funding four PG seats in Engineering to allow students to continue industrial research and product development during the study.
+      </li>
+    </ul>
+  </div>
+   </div>
+   <div class="first13">
+    <div class="row">
+      <!-- <div class="container1">
+        <img src="l_t.jpg" style="background-size: cover;">
+      </div>
+      <div class="container2">
+        <img src="SAP.jpg" alt="" srcset="">
+      </div>
+      <div class="container3">
+        <img src="ibm.jpg" alt="" srcset="">
+      </div>
+      <div class="container4">
+        <img src="Wipro.png" alt="" srcset="">
+      </div>
+      <div class="container5">
+        <img src="ni.png" alt="" srcset="">
+      </div> -->
+      <img src="l_t.jpg" style="background-size: cover;">
+      <img src="SAP.jpg" alt="" srcset="">
+      <img src="ibm.jpg" alt="" srcset="">
+      <img src="Wipro.png" alt="" srcset="">
+      <img src="ni.png" alt="" srcset="">
+    </div>
+  </div>
+  <div class="first14">
+    <div class="row2">
+      <!-- <div class="container6">
+        <img src="Cisco.png" alt="" srcset="">
+      </div>
+      <div class="container7">
+        <img src="tifac.jpg" alt="" srcset="">
+      </div>
+      <div class="container8">
+        <img src="Cadence.png" alt="" srcset="">
+      </div>
+      <div class="container9">
+        <img src="nano.jpg" alt="" srcset="">
+      </div>
+      <div class="container10">
+        <img src="inter_coll.jpg" alt="" srcset="">
+      </div> -->
+      <img src="Cisco.png" alt="" srcset="">
+      <img src="tifac.jpg" alt="" srcset="">
+      <img src="Cadence.png" alt="" srcset="">
+      <img src="nano.jpg" alt="" srcset="">
+      <img src="inter_coll.jpg" alt="" srcset="">
+    </div>
+   </div>
+    
+   <div class="write">
+    Every year the institute also engages with major IT giants through contests such as Infy TQ, HackWithInfy, Wipro Talent Next and Wipro National Talent Hunt, to provide its students with learning, industrial exposure, and placements. There they learn conceptual and practical aspects of technology and inculcate the culture of rapid problem-solving and innovative thinking.
+   </div>
+   <div class="imgtwo">
+    <div class="firstimg"> 
+    <img src="HackWithInfy.png" >
+  </div>
+  <div class="secondimg"> 
+    <img src="TalentNext.png" alt="" srcset="">
+   </div>
+  </div>
+  <div class="academic4">ACADEMIC COLLABORATIONS</div>
+    </div>
+    <div class="last">
 
-        function sendCommand(command) {
-            const message = JSON.stringify({ message: command });
-            ws.send(message);
-            console.log("Sent:", message);
-        }
-    </script>
-
+    </div>
+</div>
 </body>
 </html>
